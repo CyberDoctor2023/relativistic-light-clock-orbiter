@@ -12,4 +12,4 @@
 原因说明：
 这是因为应用没有经过 Apple 官方公证（需要每年付费）。
 本软件完全开源，代码透明，请放心使用。
-源码地址：https://github.com/CyberDoctor2023/RoundFrame
+源码地址：https://github.com/CyberDoctor2023/relativistic-light-clock-orbiter

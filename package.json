@@ -1,7 +1,7 @@
 {
   "name": "relativistic-light-clock-orbiter",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A visualization of relativistic time dilation effects using a light clock orbiter.",
   "author": "CyberDoctor2023",
   "license": "MIT",
