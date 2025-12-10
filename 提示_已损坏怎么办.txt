@@ -2,7 +2,7 @@
 
 1. 打开"终端" (Terminal)
 2. 复制并粘贴以下命令，然后按回车：
-   sudo xattr -rd com.apple.quarantine "/Applications/Relativistic Light Clock Orbiter.app"
+   sudo xattr -rd com.apple.quarantine /Applications/Relativistic\ Light\ Clock\ Orbiter.app
 
 3. 输入您的电脑密码（输入时不会显示），然后按回车
 4. 现在可以正常打开应用了
