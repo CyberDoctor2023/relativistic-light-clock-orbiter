@@ -1,0 +1,70 @@
+{
+  "name": "relativistic-light-clock-orbiter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A visualization of relativistic time dilation effects using a light clock orbiter.",
+  "author": "CyberDoctor2023",
+  "license": "MIT",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "dist": "vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "build": {
+    "productName": "Relativistic Light Clock Orbiter",
+    "appId": "com.example.relativistic-light-clock",
+    "mac": {
+      "category": "public.app-category.education",
+      "target": [
+        "dmg"
+      ]
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 270,
+          "y": 220,
+          "type": "file",
+          "path": "提示_已损坏怎么办.txt"
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "extraFiles": [
+      "提示_已损坏怎么办.txt"
+    ],
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.181.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "electron": "^39.2.6",
+    "electron-builder": "^26.0.12",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

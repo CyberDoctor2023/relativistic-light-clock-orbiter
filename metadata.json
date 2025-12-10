@@ -1,0 +1,5 @@
+{
+  "name": "Relativistic Light Clock Orbiter",
+  "description": "A physics demonstration visualizing time dilation using a light clock orbiting Earth. Shows the contrast between the astronaut's frame of reference (straight vertical movement) and the observer's frame (zigzag path).",
+  "requestFramePermissions": []
+}
